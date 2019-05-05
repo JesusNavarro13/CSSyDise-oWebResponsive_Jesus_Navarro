@@ -1,0 +1,296 @@
+body{
+  background:#02010a;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+@keyframes slidein {
+    0% {
+        margin-top: 150%;
+    }
+
+    60% {
+        margin-top: -10%;
+
+    }
+    100%{
+      margin-top: 0%;
+    }
+}
+
+
+@media (min-width:900px) {
+  .Contenido{
+    margin:200px;
+    margin-top: -6px;
+    width: 900PX
+
+  }
+  .Cabecera{
+    background:#5b7989;
+    border-radius: 10px 10px 0px 0px;
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  .menu{
+    display: inline-block;
+  }
+  a{
+    color:white;
+    font-size: 22px;
+    margin-left: 10px
+  }
+  .menu a:visited{
+    text-decoration: none;
+  }
+  h2{
+    display: inline-block;
+    width: 75%;
+    text-shadow: 2px 2px #02010a;
+    color: white;
+  }
+  .ImgCentral{
+    background: #82c3a6;
+  }
+  .ImagenCentral{
+    margin: 30px 150px 30px 160px;
+    width: 600px;
+    height: 300px;
+  }
+  .ImgSecu{
+    display: flex;
+    flex-direction: row;
+    background: #d5c75f;
+    border: 1px;
+    height: 280px;
+  }
+  .Galeria{
+    background: #d5c75f;
+    border: 1px;
+    height: auto;
+  }
+  .img1{
+    width: 400px;
+    height: 200px;
+    margin: 20px -20px 5px 50px;
+  }
+  .img2{
+    width: 400px;
+    height: 200px;
+    margin: 20px 500px 5px 50px;
+  }
+  .piedeimg1{
+    margin-left: 200px;
+    color: black;
+  }
+  .piedeimg2{
+    margin-left: 250px;
+    color: black;
+  }
+  .img1:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px #82c3a6;
+  }
+  .img2:hover{
+    transform: translate(20px,-5px);
+    box-shadow: 2px 2px #82c3a6;
+  }
+  .piedepagina{
+    border-radius: 0px 0px 10px 10px;
+    background: #C6d5c5;
+  }
+  .contacto{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+  }
+  .termino{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+  }
+  .RedesSociales{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+  }
+  .imgRS{
+  width: 25px;
+  height: 25px;
+  }
+  .parrafoRS{
+    display: inline-block;
+    font-size: 20px;
+  }
+  .redes{
+    margin-top: -25px;
+  }
+  .Derechos{
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+  }
+  .imgg1{
+    -webkit-filter: blur(10px);
+    width: 255px;
+    height: 200px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .imgg2{
+    -webkit-filter: grayscale(100%);
+    width: 255px;
+    height: 200px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .imgg3{
+    width: 255px;
+    height: 200px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .imgg5{
+    -webkit-filter: sepia(90%);
+    width: 255px;
+    height: 200px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+}
+@media (max-width:899px) {
+  .Contenido{
+    margin-bottom: 6px;
+
+  }
+  .Cabecera{
+    background:#5b7989;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  .menu{
+    display: inline-block;
+  }
+  a{
+    color:white;
+    font-size: 22px;
+    margin-left: 10px
+  }
+  .menu a:visited{
+    text-decoration: none;
+  }
+  h2{
+    display: inline-block;
+    width: 100%;
+    text-shadow: 2px 2px #02010a;
+    color: white;
+  }
+  .ImgCentral{
+    background: #82c3a6;
+  }
+  .ImagenCentral{
+    margin: 20px;
+    width: 90%;
+    height: 300px;
+  }
+  .ImgSecu{
+    width: 100%;
+    background: #d5c75f;
+    border: 1px;
+    height: 100%;
+  }
+  .Galeria{
+    background: #d5c75f;
+    border: 1px;
+    height: auto;
+  }
+  .img1{
+    margin: 20px;
+    width: 90%;
+    height: 200px;
+
+  }
+  .img2{
+    width: 90%;
+    height: 200px;
+    margin: 20px;
+
+
+  }
+  .piedeimg1{
+    text-align: center;
+    margin:200px;
+    color: black;
+  }
+  .piedeimg2{
+    text-align:center;
+    margin: 200px;
+    color: black;
+  }
+  .img1:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px #82c3a6;
+  }
+  .img2:hover{
+    transform: translate(20px,-5px);
+    box-shadow: 2px 2px #82c3a6;
+  }
+  .piedepagina{
+    border-radius: 0px 0px 10px 10px;
+    background: #C6d5c5;
+    margin-top: -20px;
+  }
+  .contacto{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .termino{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .RedesSociales{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .imgRS{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  }
+  .parrafoRS{
+    display: inline-block;
+    font-size: 20px;
+  }
+  .Derechos{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .imgg1{
+    -webkit-filter: blur(10px);
+    width: 92%;
+    height: 200px;
+    margin:20px;
+  }
+  .imgg2{
+    -webkit-filter: grayscale(100%);
+    width: 92%;
+    height: 200px;
+    margin:20px;
+  }
+  .imgg3{
+    width: 92%;
+    height: 200px;
+    margin:20px;
+  }
+  .imgg5{
+    -webkit-filter: sepia(90%);
+    width: 92%;
+    height: 200px;
+    margin:20px;
+  }
+}
+}
